@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data and models (uncomment to ignore heavy artifacts)
+# data/
+# *.csv
+# *.h5
+# *.pkl
+# models/
+# checkpoints/
+# outputs/
+
+# Logs and reports
+logs/
+*.log
+report/
+
+# PyTorch
+*.pt
+*.pth
+
+# TensorFlow
+checkpoint
+saved_model/
+
+# Packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Coverage
+htmlcov/
+.coverage
+
+# Environments
+pip-wheel-metadata/
+
+# Cache
+.cache/
+
+# Secrets
+.env
+.env.*
+
+# Misc
+*.sqlite3
+
+# Allow checking in datasets by default; if you want to ignore the CSV dataset files, uncomment above lines.
